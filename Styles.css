@@ -3,21 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+header{
     display:flex;
-    align-items:center;
-    justify-content: space-around;
-    height: 10vh;
-    padding: 1rem;
-    background-color:#265ED7;
-    margin: 1rem;
-    margin-left:25%;
-    width:50%;
-    border-radius: 5px;
-    box-shadow: 0 0 7px #000;
+    justify-content: center;
 }
-
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #265ED7;
+    margin: 1.2rem;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 -1px 7px #000;
+    color: #fff;
+    text-align: center;
+}
 nav ul a{
+    display: inline-block;
     background-color: rgba(18, 64, 165, 0.5);
     border-radius: 5px;
     box-shadow: 0 0 7px #000;
@@ -29,4 +32,282 @@ nav ul a{
 }
 body{
     background-color:#17377C;
+    
+}
+main{ 
+    background: radial-gradient(circle, #1b2f5a 75%, #04091466);
+    border-radius: 5px;
+    box-shadow: 0 0 7px #000;
+    margin: 2rem;
+    padding: 2rem;
+    height: auto;
+}
+/* Styling for the footer */
+/* Footer Styles */
+footer {
+    background-color: #265ED7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 7px #000;
+    border-radius: 5px;
+}
+
+.footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.footer-left p {
+    font-size: 16px;
+}
+
+.footer-right p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Styling for the main opening frame */
+.Opening_frame{
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    background-color:#0D3792;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #000;
+}
+#Opening_frame_title{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom:3rem;
+}
+#Opening_frame_text{
+    font-size: 1.5rem;
+    padding:2em;
+    background-color:#265ED7;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #000;
+}
+/* Styling for the divider */
+#Frame_divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Styling for the main information frame */
+.Info_frame{
+    margin: 2em 0 0 2em;
+    color: #fff;
+    width: max-content;
+}
+#Info_frame_title{
+    margin: 2rem 0 1.2rem 0;
+    font-size: 2rem;
+}
+#Para_info_title, #Info_frame_text{
+    margin-bottom:1em;
+}
+#Info_frame_text p{
+    width:fit-content;
+    padding:5px;
+    background: rgba(38, 94, 215, 0.7);
+    border-radius: 6px;
+    box-shadow: 0 2px 7px #000;
+}
+#Info_frame_image{
+    width: 50vw;
+    height: auto;
+    margin: 1em;
+    border-radius: 1px;
+    box-shadow: 0 0 7px #000;
+}
+#Info_frame_image_game{
+    width: 50vw;
+    height: auto;
+    margin: 1em;
+    border-radius: 1px;
+    box-shadow: 0 0 7px #000;
+}
+/*Styling for the extra information frame */
+.Extra_frame{
+    margin: 2em auto 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    color: #fff;
+    height: max-content;
+    border-radius: 5px;
+    background: rgba(34, 37, 44, 0.75);
+    border: #0D3792 2px solid; 
+}
+#Extra_frame_title, #Extra_frame_title_family_hobbies{
+    font-size: 1.2rem;
+    padding: 1em;
+    margin: 4px;
+    background: #17377C;
+    border: #1145B5 5px solid;
+    text-align: center;
+}
+#Extra_frame_picture{
+    display:flex;
+    justify-content: center;
+}
+
+#Extra_frame_picture img{
+    max-width: 200px;
+    height: auto;
+    margin: 1em;
+    border-radius: 50%;
+    border: #1145B5 2px solid;
+    box-shadow: 0 0 7px #000;
+}
+/* Styling for skills */
+#Extra_frame_Personal_skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#Extra_frame_personal_skills_1, #Extra_frame_personal_skills_2 {
+    margin: 1em;
+}
+#Extra_frame_personal_skills_1 li, #Extra_frame_personal_skills_2 li{
+    display:flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #1145B5;
+    text-align: center;
+}
+/* styling voor extra frame Familie en hobby */
+.Extra_frame_family_hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Extra_frame_family_hobbies > div {
+    width: 30%;
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+}
+#Extra_frame_Nationaliteit, #Extra_frame_familie, #Extra_frame_baan, #Extra_frame_opleiding, #Extra_frame_hobbies{
+    margin: 1em 0 0 0;
+    padding: 1em;
+    width: 100%;
+    border-bottom: 1px solid #1145B5;
+    text-align: center;
+}
+
+/* Styles for mobile phones */
+@media (max-width: 600px) {
+    /* Add your mobile-specific styles here */
+    nav {
+        width: 90%;
+    }
+    nav ul a {
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 10px;
+    }
+    #Frame_divider {
+        flex-direction: column-reverse;
+    }
+    .Info_frame {
+        margin: 2em 0;
+        width: 100%;
+    }
+    #Info_frame_image {
+        width: 100%;
+    }
+    .Extra_frame {
+        width: 100%;
+        height: auto;
+        overflow-x: auto; 
+        white-space: nowrap; 
+    }
+}
+/* Styles for tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        width: 70%;
+    }
+    #Frame_divider {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .Info_frame {
+        margin: 2em 0;
+        width: 100%;
+    }
+    #Info_frame_image {
+        width: 80%;
+    }
+    .Extra_frame {
+        display: flex;
+        width: 100%;
+        height: 30em;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .Extra_frame_divider{
+        display: flex;
+        margin: 0 2rem 0 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Extra_frame_divider_family_hobbies{       
+        display: flex;
+        margin: 0 2rem 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #Extra_frame_title{
+        display: flex;
+        width: 200%;
+        height: 8rem;
+        text-align: center;
+        align-items: center;
+    }
+    #Extra_frame_title_family_hobbies{
+        font-size: 95%;
+        padding: 2em;
+        margin: 4px;
+        height: 8rem;
+        width: 60em;
+        background: #17377C;
+        border: #1145B5 5px solid;
+        text-align: center;
+    }
+    .Extra_frame > div {
+        display: flex;
+        width: 200%;
+        height: 8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    #Extra_frame_Nationaliteit, #Extra_frame_familie, #Extra_frame_baan, #Extra_frame_opleiding, #Extra_frame_hobbies{
+        display: flex;
+        margin: 1em 0 0 0;
+        padding: 1em;
+        width: 100%;
+        border-right: 1px solid #1145B5;
+        border-left: 1px solid #1145B5;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Extra_frame_family_hobbies{
+        display:flex;
+        flex-wrap:nowrap;
+        flex-direction:row;
+    }
 }
