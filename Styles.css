@@ -32,7 +32,6 @@ nav ul a{
 }
 body{
     background-color:#17377C;
-    
 }
 main{ 
     background: radial-gradient(circle, #1b2f5a 75%, #04091466);
@@ -42,8 +41,7 @@ main{
     padding: 2rem;
     height: auto;
 }
-/* Styling for the footer */
-/* Footer Styles */
+
 footer {
     background-color: #265ED7;
     color: #fff;
@@ -76,7 +74,6 @@ footer {
     margin: 5px 0;
 }
 
-/* Styling for the main opening frame */
 .Opening_frame{
     text-align: center;
     color: #fff;
@@ -97,13 +94,13 @@ footer {
     border-radius: 5px;
     box-shadow: 0 0 7px #000;
 }
-/* Styling for the divider */
+
 #Frame_divider{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-/*Styling for the main information frame */
+
 .Info_frame{
     margin: 2em 0 0 2em;
     color: #fff;
@@ -123,21 +120,14 @@ footer {
     border-radius: 6px;
     box-shadow: 0 2px 7px #000;
 }
-#Info_frame_image{
+#Info_frame_image, #Info_frame_image_game{
     width: 50vw;
     height: auto;
     margin: 1em;
     border-radius: 1px;
     box-shadow: 0 0 7px #000;
 }
-#Info_frame_image_game{
-    width: 50vw;
-    height: auto;
-    margin: 1em;
-    border-radius: 1px;
-    box-shadow: 0 0 7px #000;
-}
-/*Styling for the extra information frame */
+
 .Extra_frame{
     margin: 2em auto 0 auto;
     width: 80%;
@@ -169,7 +159,7 @@ footer {
     border: #1145B5 2px solid;
     box-shadow: 0 0 7px #000;
 }
-/* Styling for skills */
+
 #Extra_frame_Personal_skills{
     display: flex;
     justify-content: space-around;
@@ -187,7 +177,7 @@ footer {
     border-bottom: 1px solid #1145B5;
     text-align: center;
 }
-/* styling voor extra frame Familie en hobby */
+
 .Extra_frame_family_hobbies{
     display: flex;
     flex-wrap: wrap;
@@ -206,9 +196,7 @@ footer {
     text-align: center;
 }
 
-/* Styles for mobile phones */
 @media (max-width: 600px) {
-    /* Add your mobile-specific styles here */
     nav {
         width: 90%;
     }
@@ -224,7 +212,7 @@ footer {
         margin: 2em 0;
         width: 100%;
     }
-    #Info_frame_image {
+    #Info_frame_image, #Info_frame_image_game {
         width: 100%;
     }
     .Extra_frame {
@@ -234,7 +222,7 @@ footer {
         white-space: nowrap; 
     }
 }
-/* Styles for tablets */
+
 @media (min-width: 601px) and (max-width: 1024px) {
     nav {
         width: 70%;
@@ -247,7 +235,7 @@ footer {
         margin: 2em 0;
         width: 100%;
     }
-    #Info_frame_image {
+    #Info_frame_image, #Info_frame_image_game {
         width: 80%;
     }
     .Extra_frame {
@@ -264,13 +252,6 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .Extra_frame_divider_family_hobbies{       
-        display: flex;
-        margin: 0 2rem 0 0;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
     #Extra_frame_title{
         display: flex;
         width: 200%;

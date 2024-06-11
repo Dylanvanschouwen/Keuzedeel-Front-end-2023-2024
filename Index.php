@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Dylan van schouwen">
+    <meta name="description" content="Dylan van schouwen portfolio">
+    <meta name="keywords" content="Dylan, van, schouwen, portfolio, Front-End, Developer">
     <title>Portfolio home page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -86,18 +90,20 @@
                     </div>
                     <div id="Extra_frame_Personal_skills">
                         <ul id="Extra_frame_personal_skills_1">
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
+                            <li><h2>Hard Skills</h2></li>
+                            <li>Kennis van JavaScript</li>
+                            <li>Kennis van MySQL</li>
+                            <li>Goed begrip van scrum</li>
+                            <li>Verstand van GitHub</li>
+                            <li>Kennis van HTML, CSS & PHP</li>
                         </ul>
                         <ul id="Extra_frame_personal_skills_2">
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
+                            <li><h2>Soft Skills</h2></li>
+                            <li>Probleemoplossend vermogen</li>
+                            <li>Kritishandig</li>
+                            <li>Goed met communicatievaardigheden</li>
+                            <li>Snel leervermogen</li>
+                            <li>Organisatief</li>
                         </ul>
                     </div> 
                 </div>
